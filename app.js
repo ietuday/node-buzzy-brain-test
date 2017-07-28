@@ -179,7 +179,7 @@ app.post('/forgot', function(req, res, next) {
         service: 'Gmail',
         auth: {
           user: 'udayaditya.singh@gmail.com',
-          pass: 'Joker2859'
+          pass: '*****'
         }
       });
       var mailOptions = {
@@ -239,7 +239,7 @@ app.post('/reset/:token', function(req, res) {
         service: 'Gmail',
         auth: {
           user: 'udayaditya.singh@gmail.com',
-          pass: 'Joker2859'
+          pass: '*******'
         }
       });
       var mailOptions = {
