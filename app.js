@@ -178,7 +178,7 @@ app.post('/forgot', function(req, res, next) {
       var smtpTransport = nodemailer.createTransport('SMTP', {
         service: 'Gmail',
         auth: {
-          user: 'udayaditya.singh@gmail.com',
+          user: '##########',
           pass: '*****'
         }
       });
@@ -238,7 +238,7 @@ app.post('/reset/:token', function(req, res) {
       var smtpTransport = nodemailer.createTransport('SMTP', {
         service: 'Gmail',
         auth: {
-          user: 'udayaditya.singh@gmail.com',
+          user: '######',
           pass: '*******'
         }
       });
