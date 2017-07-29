@@ -178,8 +178,8 @@ app.post('/forgot', function(req, res, next) {
       var smtpTransport = nodemailer.createTransport('SMTP', {
         service: 'Gmail',
         auth: {
-          user: '##########',
-          pass: '*****'
+          user: 'YOUR GMAIL USERNAME',
+          pass: 'YOUR GMAIL PASSWORD'
         }
       });
       var mailOptions = {
@@ -238,8 +238,8 @@ app.post('/reset/:token', function(req, res) {
       var smtpTransport = nodemailer.createTransport('SMTP', {
         service: 'Gmail',
         auth: {
-          user: '######',
-          pass: '*******'
+          user: 'YOUR GMAIL USERNAME',
+          pass: 'YOUR GMAIL PASSWORD'
         }
       });
       var mailOptions = {
